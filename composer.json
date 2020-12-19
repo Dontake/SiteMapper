@@ -1,0 +1,20 @@
+{
+    "name": "domtake/sitemapper",
+    "description": "library for generating sitemap in various formats",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Vlad Kiryakov",
+            "email": "wlad.kiryakov@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Domtake\\SiteMapper\\": "src/"
+        }
+    }
+}

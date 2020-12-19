@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/1.0 http://www.sitemaps.org/schemas/sitemap/1.0/sitemap.xsd">
+  <url>
+    <loc>https://site.ru/</loc>
+    <lastmod>2020-12-17</lastmod>
+    <priority>1</priority>
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://site.ru/news</loc>
+    <lastmod>2020-12-17</lastmod>
+    <priority>0,5</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://site.ru/about</loc>
+    <lastmod>2020-12-17</lastmod>
+    <priority>0.1</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://site.ru/products</loc>
+    <lastmod>2020-12-17</lastmod>
+    <priority>0.1</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
