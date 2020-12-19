@@ -8,9 +8,9 @@ namespace Domtake\SiteMapper;
  */
 class Csv extends Creator
 {
-    const delimiter = ',';
-    const enclosure = '"';
-    const escape_char = "\\";
+    const DELIMITER = ',';
+    const ENCLOSURE = '"';
+    const ESCAPE_CHAR = "\\";
 
     /**
      * Create CSV file in a given directory
@@ -25,7 +25,7 @@ class Csv extends Creator
         $this->writeRows($page_array, $csv_file);
 
         foreach ($page_array as $item) {
-            fputcsv($csv_file, $item, self::delimiter, self::enclosure, self::escape_char);
+            fputcsv($csv_file, $item, self::DELIMITER, self::ENCLOSURE, self::ESCAPE_CHAR);
         }
 
         fclose($csv_file);
@@ -46,6 +46,6 @@ class Csv extends Creator
             $csv_rows = array_keys($row);
         }
 
-        fputcsv($csv_file, $csv_rows, self::delimiter, self::enclosure, self::escape_char);
+        fputcsv($csv_file, $csv_rows, self::DELIMITER, self::ENCLOSURE, self::ESCAPE_CHAR);
     }
 }
